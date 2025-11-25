@@ -1,5 +1,9 @@
 # PLS3DCH
-Modpack for Plasticity3d
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
+[![ru](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
+
+PLS3DCH
         <p>Эта сборка модов — результат работы небольшой команды энтузиастов</p>
         <p>Мы вложили много сил, чтобы сделать интерфейс Plasticity удобнее и функциональнее. Однако, поскольку это неофициальная модификация, могут возникать ошибки и баги. Используя эту сборку, вы принимаете что все не стабильно и ломается.</p>
         <h4>Рекомендации по настройке Plasticity:</h4>
