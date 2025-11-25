@@ -1,17 +1,18 @@
 [
   {
     "lang": "ru",
-    "version": "r1.001",
+    "version": "r1.002",
     "url": "https://github.com/denwerdan-arch/PLS3DCH/releases/download/r1.002_ru/PLS3DCH_ru_r1.002.zip",
     "sha256": "4ba6f2c5941eb36000c6de2014eae7c3c39324eb59c97cf627b956afd3734e48"
   },
   {
     "lang": "en",
-    "version": "r1.001",
+    "version": "r1.002",
     "url": "https://github.com/denwerdan-arch/PLS3DCH/releases/download/r1.002_en/PLS3DCH_en_r1.002.zip",
     "sha256": "dfc4bb8b2d3f6b43d1b13367113c9d21bca7018a5bc1de027cd3d205430ea293"
   }
 ]
+
 
 
 
