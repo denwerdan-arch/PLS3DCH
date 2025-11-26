@@ -1,4 +1,4 @@
-# PLS3DCH
+# Plasticity3D Ceran Helia Edition
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
@@ -20,7 +20,11 @@
                         <li>Не играйтесь с кнопками, затянет</li>
                     </ul>
                     <p>По хорошему убедитесь что у вас еще обновлен файл настроек Plasticity.</p>
-        <br><br>
+        <br>
+        <h2>Установка.</h2>
+          <p>Мы для тебя собрали очень простой инсталятор мода</p>
+          https://github.com/user-attachments/assets/64df2822-5c24-434e-8ab3-10a3987329d1
+        <br>
             <h2>Прелоадер</h2>
                 <br>
                         <p align="center">
