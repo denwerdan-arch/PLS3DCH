@@ -10,6 +10,7 @@
     <li>It checks which version of Plasticity you have installed</li>
     <li>Makes backups of changes himself</li>
   </ul>
+  ❗To install on a stable version, you need to run the installer with administrator rights.
 <p>
   
   A little more detail [read here](https://github.com/denwerdan-arch/PLS3DCH/issues/1)
