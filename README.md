@@ -1,9 +1,31 @@
-# Plasticity3D Ceran Helia Edition
+# Plasticity3D Ceran Helia Edition (RU)
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
 
-<h2>PLS3DCH r1.000</h2>
+<h2>Сначала установка.</h2>
+<p>Мы для тебя собрали очень простой инсталятор мода который: 
+  <ul>
+    <li>Cам проверяет наличие обновлений</li>
+    <li>Cам проверяет какая версия Plasticity у тебя установлена</li>
+    <li>Cам делает бэкапы изменений</li>
+  </ul>
+<p>
+  
+  Чуть подробнее [читай тут](https://github.com/denwerdan-arch/PLS3DCH/issues/1)
+
+</p>
+</p>
+<h2>
+  
+  [Скачать установщик 🔻](https://github.com/denwerdan-arch/PLS3DCH/blob/c4a1965d4688b63b40ecbfe45a210664fb071b72/PLS3DCH%20Installer.exe)
+
+</h2>
+
+https://github.com/user-attachments/assets/64df2822-5c24-434e-8ab3-10a3987329d1
+
+<br>
+<h1>PLS3DCH r1.000</h1>
                 <br>
                         <p align="center">
                                 <img width="1920px" src="img/psl3dch.png" alt="Передаю привет!"/>
@@ -20,11 +42,7 @@
                         <li>Не играйтесь с кнопками, затянет</li>
                     </ul>
                     <p>По хорошему убедитесь что у вас еще обновлен файл настроек Plasticity.</p>
-        <br>
-        <h2>Установка.</h2>
-          <p>Мы для тебя собрали очень простой инсталятор мода</p>
-          https://github.com/user-attachments/assets/64df2822-5c24-434e-8ab3-10a3987329d1
-        <br>
+        <br>       
             <h2>Прелоадер</h2>
                 <br>
                         <p align="center">
