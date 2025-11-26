@@ -1,7 +1,7 @@
 # Plasticity3D Ceran Helia Edition (RU)
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
-[![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
+[![en](https://img.shields.io/badge/Readme-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
+[![ru](https://img.shields.io/badge/Readme-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
 
 <h2>Сначала установка.</h2>
 <p>Мы для тебя собрали очень простой инсталятор мода который: 
@@ -313,3 +313,5 @@ https://github.com/user-attachments/assets/64df2822-5c24-434e-8ab3-10a3987329d1
             <br>
         <h4>custom.css</h4>
         <p>Файл пользовательских стилей. Он определяет внешний вид различных элементов интерфейса, работая в связке с некоторыми модами для кастомизации. Содержит мелкие фиксы, такие как раскрытие полного списка маткапов или расширение окна настроек команд.</p>
+
+Подписывайся на MNP https://t.me/moinepomoi
