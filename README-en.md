@@ -51,9 +51,6 @@
             <p>If you ever want to add a button from your mod, its ID must be specified in this script.</p>
             <p class="mod-meta-info">Author: Vadim Danilkov   • Version: 2.1.0</p>
             <br>
-            <h2>DON'T LOOK BEHIND YOU!!!</h2>
-            This very script. Creates the 'PLS3DCH' button and this information panel where you are currently reading the mod descriptions.<p class="mod-meta-info">Author: Vadim Danilkov   • Version: 1.0.0</p>
-            <br>
             <h2>Custom Bottom Panel</h2>
             <p>This is one of the most powerful and complex mods, which is essentially a whole framework for creating a custom interface.</p>
             <h4>Full Description of Custom_bottompanel.js</h4>
