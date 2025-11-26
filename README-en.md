@@ -1,7 +1,7 @@
 # Plasticity3D Ceran Helia Edition (En)
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
-[![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
+[![en](https://img.shields.io/badge/Readme-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
+[![ru](https://img.shields.io/badge/Readme-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
 
 <h2>Installation first</h2>
 <p>We have put together a very simple mod installer for you which: 
@@ -313,3 +313,5 @@ https://github.com/user-attachments/assets/64df2822-5c24-434e-8ab3-10a3987329d1
         <br>
         <h4>custom.css</h4>
         <p>Custom styles file. It defines the appearance of various interface elements, working in conjunction with some mods for customization. Contains minor fixes, such as expanding the full list of matcaps or extending the command settings window.</p>
+
+Subscribe to MNP https://t.me/moinepomoi
