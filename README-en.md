@@ -3,7 +3,27 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
 
+
+h1 {
+  color: red;
+  animation: myanimation 2s infinite;
+}
+
+@keyframes myanimation {
+  from {
+    color: red;
+  }
+  to {
+    color: yellow;
+  }
+}
+
 <h2>PLS3DCH r1.000</h2>
+        <br>
+                <p align="center">
+                        <img width="1920px" src="img/psl3dch.png" alt="qr"/>
+                </p>
+        <br>
         <p>This mod pack is the result of the work of a small team of enthusiasts.</p>
             <br>
                     <p>We have put a lot of effort into making the Plasticity interface more convenient and functional. However, as this is an unofficial modification, errors and bugs may occur. By using this build, you accept that everything is unstable and may break.</p>
@@ -18,7 +38,12 @@
             <br>
                     <p>It would be good to make sure your Plasticity settings file is also updated.</p>
         <br>
-            <h2>Preloader</h2>    
+            <h2>Preloader</h2>
+        <br>
+                <p align="center">
+                        <img width="1920px" src="img/Preloader.png" alt="qr"/>
+                </p>
+        <br>
             <p>A script that is responsible not only for the loading screen but also for the user's first impression.</p>
             <h4>General Purpose of Preloader.js</h4>
             <p>The main task of the script is to display a splash screen (preloader) while the main Plasticity interface is loading. However, its functionality is divided into two completely different modes, which depend on whether this is the user's first time running the mod pack.</p>
@@ -45,6 +70,11 @@
             <p>In the end, Preloader.js is not just a splash screen, but a powerful tool for user onboarding (initial acquaintance) that combines informational, entertaining, and aesthetic functions.</p><p class="mod-meta-info">Author: Vadim Danilkov • Version: 9.8.1</p>
             <br>
             <h2>Mod Panel</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/ModPanel.png" alt="ModPanel"/>
+                    </p>
+            <br>
             <p>This is one of the key mods responsible for the order and organization of the interface. Its main task is to prevent the chaos of buttons added by other mods.</p>
             <h4>General Purpose of ModPanel.js</h4>
             <p>The script creates a single, compact, and collapsible panel that finds and "collects" buttons from other installed modifications. Instead of each mod adding its button to a random place on the screen, ModPanel groups them in one neat container.</p>
@@ -52,6 +82,11 @@
             <p class="mod-meta-info">Author: Vadim Danilkov   • Version: 2.1.0</p>
             <br>
             <h2>Custom Bottom Panel</h2>
+                <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Custom_bottompanel.png" alt="Custom_bottompanel"/>
+                    </p>
+            <br>
             <p>This is one of the most powerful and complex mods, which is essentially a whole framework for creating a custom interface.</p>
             <h4>Full Description of Custom_bottompanel.js</h4>
             <p>The main task of this script is to completely replace the standard bottom toolbar with its own, flexibly customizable version. It doesn't just add buttons but creates an entire system for managing them.</p>
@@ -70,6 +105,11 @@
             <p><code>Custom_bottompanel.js</code> is not just a panel, but a complex "layout manager." It gives the user full control over one of the most important parts of the interface, allowing for the creation of a truly personalized and efficient workspace.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 9.1.0</p>
         <br>
             <h2>Custom Side Drawing Panel</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Style_SVG.png" alt="Style_SVG"/>
+                    </p>
+            <br>
             <p>This is one of the most visually significant and customizable mods. It completely transforms the left drawing panel, making it more organized, readable, and customizable.</p>
             <h4>General Purpose of Style_SVG.js</h4>
             <p>The main task of the script is to give the user full control over the appearance of the drawing toolbar. This is achieved through three main functions: coloring icons by category, adding separators, and creating a settings panel.</p>
@@ -92,6 +132,11 @@
             <p><code>Style_SVG.js</code> is not just a "colorizer," but a comprehensive tool for deep UI customization. It turns the standard, monotonous toolbar into an organized, visually clear, and fully personalized workspace, increasing the speed and convenience of work.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 5.1.4</p>
             <br>
             <h2>Matcap Manager</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Matcaps.png" alt="Matcaps"/>
+                    </p>
+            <br>
             <p>This is a Matcap material manager that allows you to use your own library of matcaps directly in Plasticity. It adds a "MatManager" button to the interface, which opens a panel for managing your files.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to allow the user to easily add, view, apply, and delete their own Matcap files (in PNG, JPG, WebP, + EXR formats) from a local folder on the computer. This eliminates the need to manually replace files in the program folder and allows you to have a large collection of materials at hand.</p>
@@ -106,6 +151,11 @@
             <p><code>Matcaps.js</code> is a tool for those who want to expand the visual capabilities of Plasticity. It not only provides a convenient interface for managing a personal library of materials but also solves the problem of customizing the standard shader through a safe replacement mechanism with a rollback option.</p><p class="mod-meta-info">Author: Zhu, Egor Hitrov, Vadim Danilkov   • Version: 7.1.0</p>
             <br>
             <h2>Asset Browser</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Asset-browser.png" alt="Asset-browser"/>
+                    </p>
+            <br>
             <p>This is a local asset browser that allows you to view and import 3D models within the Plasticity interface.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to provide the user with a convenient interface for working with a local library of 3D models. It scans the specified folder, automatically groups files (e.g., a <code>.obj</code> model and its <code>.jpg</code> preview), and displays them as a gallery. The main feature is the ability to import a model into the scene with a single click on the "🔻" icon or a double-click on the model preview.</p>
@@ -120,6 +170,11 @@
             <p><code>Asset-browser.js</code> is a comprehensive solution that significantly expands Plasticity's capabilities for working with assets, using clever workarounds to integrate with the program's core.</p><p class="mod-meta-info">Author: Egor Hitrov, Vadim Danilkov   • Version: 21.1.0</p>
             <br>
             <h2>Command Memory</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Persistent_settings.png" alt="Persistent_settings"/>
+                    </p>
+            <br>
             <p>This is one of the most powerful mods for speeding up the workflow, adding "memory" to almost all tools in Plasticity.</p>
             <h1>THE SCRIPT DOES NOT WORK WITH THE "Automatically invoke commands" OPTION ENABLED. DISABLE IT IN THE "General" SETTINGS.</h1>
             <h4>General Purpose</h4>
@@ -136,6 +191,11 @@
             <p><code>Persistent_settings.js</code> is an indispensable mod for increasing efficiency, turning routine, repetitive operations into one-click actions. The ability to set a hotkey for auto-application dramatically speeds up the modeling process.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 48.1.0</p>
             <br>
             <h2>Object Mass Calculation</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/MassCalculator.png" alt="MassCalculator"/>
+                    </p>
+            <br>
             <p>This is a convenient tool that adds a calculator to the interface for calculating the volume, surface area, and mass of selected solids.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to provide quick access to the physical properties of a model. It reads data about volume and area from the standard Plasticity information panel and, based on the specified density, calculates the object's mass. This is especially useful for engineers, designers, and 3D printing enthusiasts.</p>
@@ -149,7 +209,12 @@
             <h4>Conclusion</h4>
             <p><code>MassCalculator.js</code> is a simple but effective tool that adds an important engineering function to Plasticity, automating data collection and calculations.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 1.9.0</p>
             <br>
-            <h2>Move Left Panel to Viewport</h2>    
+            <h2>Move Left Panel to Viewport</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Move_outliner_to_viewport.png" alt="Move_outliner_to_viewport"/>
+                    </p>
+            <br>
             <p>This is one of the most important "infrastructural" mods in the build, completely changing the layout of the main Plasticity interface. It doesn't just move one panel but acts as a "layout manager" that controls the position of other elements.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to "tear" the outliner panel (list of objects) from its standard static position on the left and turn it into a floating, collapsible, and expandable panel inside the main viewport.</p>
@@ -165,6 +230,11 @@
             <p><code>Move_outliner_to_viewport.js</code> is not just about moving a panel, but a complex layout manager. It creates a more flexible workspace and makes other important UI elements "respect" the outliner's position, dynamically adapting to its visibility and width.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 1.1.0</p>
             <br>
             <h2>Center Selection Mode Panel</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Center_selection_bar.png" alt="Center_selection_bar"/>
+                    </p>
+            <br>
             <p>This is a user interface improvement mod that changes the position of the selection mode panel.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to move the selection mode panel (points, edges, faces, bodies) from its standard position in the upper left corner to the center of the bottom of the screen for faster and more convenient access.</p>
@@ -177,7 +247,12 @@
             <h4>Conclusion</h4>
             <p><code>Center_selection_bar.js</code> significantly improves ergonomics by centralizing the main selection controls and intelligently managing screen space when other temporary panels appear in the same area. This is the only mod that is easy to disable.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 1.1.0</p>
             <br>
-            <h2>Outliner Colorizer</h2>            
+            <h2>Outliner Colorizer</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Style_Outliner.png" alt="Style_Outliner"/>
+                    </p>
+            <br>
             <p>This is a powerful tool for visually organizing a scene, allowing for detailed customization of the outliner's (object list) appearance. It doesn't just change styles but adds a whole system for managing object colors.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to provide the user with the ability to assign colors to elements in the outliner for quick visual identification. This is achieved through automatic coloring by keywords, manual adjustment via a special menu, and synchronization with material colors.</p>
@@ -193,6 +268,11 @@
             <p><code>Style_Outliner.js</code> is an indispensable mod for working with complex scenes. It turns the standard monochrome list of objects into an informative, easily readable, and fully customizable structure.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 5.9.0</p>
             <br>
             <h2>Dimension Callout Colorizer</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Style_Measure.png" alt="Style_Measure"/>
+                    </p>
+            <br>
             <p>This is a tool for detailed customization of the appearance of measurement elements (dimensions) that appear in the viewport when using the "Measure" tool.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to give the user full control over the style and behavior of dimension callouts. It allows changing everything: from font and color to text orientation.</p>
@@ -207,6 +287,11 @@
             <p><code>Style_Measure.js</code> is an indispensable tool for those who want to make dimension readings more readable, informative, and in line with personal preferences.</p><p class="mod-meta-info">Author: Vadim Danilkov   • Version: 1.0.0</p>
             <br>
             <h2>Enhanced Number Input Fields for Commands</h2>
+            <br>
+                    <p align="center">
+                            <img width="1920px" src="img/Enhancer-input-mod.png" alt="Enhancer-input-mod"/>
+                    </p>
+            <br>
             <p>This is a workflow acceleration mod that "supercharges" the standard number input fields in tool dialog boxes.</p>
             <h4>General Purpose</h4>
             <p>The main task of the script is to add extended functionality to numeric input fields. It allows changing values using the mouse wheel and keyboard arrows with various multipliers, and also adds buttons for quick mathematical operations.</p>
