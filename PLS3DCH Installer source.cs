@@ -1395,7 +1395,9 @@ namespace ModInstaller
 
         async Task InstallOrUpdate(bool isUpdate)
         {
-            string archive = txtArchive.Text.Trim(); string target = txtTarget.Text.Trim();
+            string archive = txtArchive.Text.Trim(); 
+            string target = txtTarget.Text.Trim();
+            
             if (!File.Exists(archive)) { Log("Archive not found."); return; }
             if (!Directory.Exists(target)) { Log("Target folder not found."); return; }
             
@@ -1407,7 +1409,18 @@ namespace ModInstaller
             string startupFile = Path.Combine(plasticRootDir, "startup.plasticity");
             string backupStartupFile = Path.Combine(plasticRootDir, "startup.plasticity.orig");
 
-            string selectedConfig = cbConfig.SelectedItem?.ToString() ?? "No";
+            // --- ЛОГИКА ВЫБОРА КОНФИГА ---
+            // Теперь мы не смотрим на текст, а смотрим на номер строки (0, 1, 2)
+            // 0 = Don't install
+            // 1 = Theme (.plasticity_no_keymap)
+            // 2 = Theme and shortcuts (.plasticity)
+            string configFolderName = null;
+            switch (cbConfig.SelectedIndex)
+            {
+                case 1: configFolderName = ".plasticity_no_keymap"; break;
+                case 2: configFolderName = ".plasticity"; break;
+                default: configFolderName = null; break; // 0 или -1
+            }
 
             try
             {
@@ -1436,16 +1449,16 @@ namespace ModInstaller
                 try { if (Directory.Exists(srcMods)) { CopyDirectory(srcMods, dstMods); Log("Installed mods."); } } catch (Exception ex) { Log("Error copying mods: " + ex.Message); return; }
 
                 // --- 2. Install Config (Merge Logic) ---
-                if (selectedConfig != "No")
+                if (configFolderName != null)
                 {
                     try
                     {
-                        string configSrc = Path.Combine(tmp, selectedConfig);
+                        string configSrc = Path.Combine(tmp, configFolderName);
                         
-                        // Поиск папки в архиве
+                        // Поиск папки в архиве (если она лежит глубже)
                         if (!Directory.Exists(configSrc))
                         {
-                            var potential = Directory.GetDirectories(tmp, selectedConfig, SearchOption.AllDirectories).FirstOrDefault();
+                            var potential = Directory.GetDirectories(tmp, configFolderName, SearchOption.AllDirectories).FirstOrDefault();
                             if (potential != null) configSrc = potential;
                         }
 
@@ -1453,27 +1466,27 @@ namespace ModInstaller
                         {
                             Directory.CreateDirectory(plasticRootDir);
 
-                            // А. Бекап папки v2 (БЕЗОПАСНОЕ КОПИРОВАНИЕ)
+                            // А. Бекап папки v2
                             if (Directory.Exists(targetV2) && !Directory.Exists(backupV2))
                             {
                                 CopyDirectory(targetV2, backupV2);
                                 Log($"Created backup copy of config v2 at {backupV2}");
                             }
 
-                            // Б. Бекап файла startup.plasticity (БЕЗОПАСНОЕ КОПИРОВАНИЕ)
+                            // Б. Бекап файла startup.plasticity
                             if (File.Exists(startupFile) && !File.Exists(backupStartupFile))
                             {
                                 File.Copy(startupFile, backupStartupFile, true);
                                 Log($"Created backup copy of startup.plasticity at {backupStartupFile}");
                             }
 
-                            // В. Установка конфигов (MERGE / СЛИЯНИЕ)
+                            // В. Установка конфигов
                             CopyDirectory(configSrc, plasticRootDir);
-                            Log($"Merged config ({selectedConfig}) into {plasticRootDir}");
+                            Log($"Merged config ({configFolderName}) into {plasticRootDir}");
                         }
                         else
                         {
-                            Log($"Warning: Config folder '{selectedConfig}' not found in archive.");
+                            Log($"Warning: Config folder '{configFolderName}' not found in archive.");
                         }
                     }
                     catch (Exception ex) { Log("Config install error: " + ex.Message); }
@@ -1486,7 +1499,10 @@ namespace ModInstaller
                     string detectedVersion = DetectVersionFromArchiveName(Path.GetFileName(archive)) ?? (lastDownloadedOriginalName != null ? DetectVersionFromArchiveName(lastDownloadedOriginalName) : null) ?? "r0.000";
                     string installedVerPath = Path.Combine(dstMods, "installed_version.txt"); 
                     Directory.CreateDirectory(dstMods);
-                    string configInfo = selectedConfig != "No" ? $"+{selectedConfig}" : "";
+                    
+                    // Записываем имя папки конфига, а не текст из UI, чтобы было технически точно
+                    string configInfo = configFolderName != null ? $"+{configFolderName}" : "";
+                    
                     await File.WriteAllTextAsync(installedVerPath, $"{lang} {detectedVersion} {configInfo}");
                     Log($"Updated installed version: {lang} {detectedVersion} {configInfo}");
                 }
