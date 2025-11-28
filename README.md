@@ -3,28 +3,6 @@
 [![en](https://img.shields.io/badge/Readme-en-red.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README-en.md)
 [![ru](https://img.shields.io/badge/Readme-ru-green.svg)](https://github.com/denwerdan-arch/PLS3DCH/blob/main/README.md)
 
-<h2>Сначала установка.</h2>
-<p>Мы для тебя собрали очень простой инсталятор мода который: 
-  <ul>
-    <li>Cам проверяет наличие обновлений</li>
-    <li>Cам проверяет какая версия Plasticity у тебя установлена</li>
-    <li>Cам делает бэкапы изменений</li>
-  </ul>
-<p>
-  
-  Чуть подробнее [читай тут](https://github.com/denwerdan-arch/PLS3DCH/issues/1)
-
-</p>
-</p>
-<h2>
-  
-  [Скачать установщик 🔻](https://github.com/denwerdan-arch/PLS3DCH/raw/refs/heads/main/PLS3DCH%20Installer.exe)
-
-</h2>
-
-https://github.com/user-attachments/assets/64df2822-5c24-434e-8ab3-10a3987329d1
-
-<br>
 <h1>PLS3DCH r1.000</h1>
                 <br>
                         <p align="center">
